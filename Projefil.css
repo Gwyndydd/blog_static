@@ -1,0 +1,134 @@
+body{
+  background-color: #FFFFFF;
+  background-image: url("images/fond_min.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: arial;
+}
+
+.Haut2Page{
+  border : solid #F68C02 2px;
+  background-image: url("images/26105.jpg");
+  background-size: cover;
+}
+
+.affiche
+{
+  grid-column-start: 1;
+  grid-row-start: 1;
+  vertical-align: bottom;
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-left: 2em;
+}
+
+.affiche p{
+  margin-right: 2em;
+}
+
+.affiche h3{
+    background-color: #454545;
+    color: white;
+    border-radius: 5px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
+.recommandation
+{
+  grid-column-start: 2;
+  grid-row-start: 1;
+  vertical-align: text-top;
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.recommandation h3{
+  background-color: #F68C02;
+  color: white;
+  border-radius: 5px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+article
+{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 50% 50% ;
+  grid-template-rows: 50% 40% 10%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFFFFFD9;
+  margin-top: 2em;
+}
+
+.Anecdote
+{
+  grid-column-start: 1;
+  grid-row-start: 2;
+  margin-left: 2em;
+  margin-bottom: 2em;
+
+}
+
+.Anecdote h3{
+    background-color: #454545;
+    color: white;
+    border-radius: 5px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
+.Anecdote p{
+  margin-left: 2em;
+}
+
+.Palmares
+{
+  grid-column-start: 2;
+  grid-row-start: 2;
+  margin-bottom: 4em;
+  margin-right: 2em;
+}
+
+.Palmares li
+{
+  list-style-type: none;
+}
+
+.Palmares p{
+  margin-right: 2em;
+  margin-bottom: 2em;
+}
+
+.Palmares h3{
+    background-color: #F68C02;
+    color: white;
+    border-radius: 5px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
+
+article img {
+  height: 20em;
+  border: 2mm ridge #A1a1a1;
+}
+
+strong{
+  font-style: italic;
+  color: #F68C02;
+  text-decoration: none;
+}

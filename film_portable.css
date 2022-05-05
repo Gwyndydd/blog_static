@@ -1,0 +1,145 @@
+@media screen and (max-width: 640px) {
+
+  body{
+    background-repeat :repeat;
+    width: auto;
+  }
+
+  article{
+    width:98%;
+    height: 85em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Partie_1{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+      .Partie_1 .image img{
+        margin-top: 1em;
+        width : 60%;
+        height: 60%;
+      }
+
+      .Partie_1 .identite .contenu{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 21em;
+      }
+
+      .Partie_1 .identite h2{
+        padding-left: 5px;
+        padding-bottom: 5px;
+      }
+
+      .contenu a{
+        text-decoration: underline;
+        color: black;
+        padding: 0.5em;
+      }
+
+      .Réal{
+        margin-left: 0.75em;
+      }
+
+      .G{
+        margin-left: 0.75em;
+      }
+
+      .acteurs{
+        height: 9em;
+      }
+
+      .Pays{
+        margin-left: 0.75em;
+        height: 9em;
+      }
+
+      .duree{
+        width: 9.5em;
+        height: 9em;
+      }
+
+
+      .Partie_1 .synopsis p{
+        margin-left: 2em;
+        margin-right: 2em;
+        text-align: justify;
+        font-size: 0.9em;
+      }
+
+  .suggestion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .suggestion img{
+    margin-bottom: 1em;
+    width: 60%;
+    height: 60%;
+  }
+
+/*Resume / Partie 2*/
+  .resume{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFFE9;
+  }
+
+    .resume h2{
+      width: 13.6em;
+      order : 1;
+    }
+
+    .resume h3{
+      padding: 0;
+      order : 2;
+    }
+
+    .resume #p1{
+      padding: 0em;
+      margin-left: 1em;
+      margin-right: 1em;
+      order: 3;
+    }
+
+    .resume #p2{
+      padding: 0em;
+      margin-left: 1em;
+      margin-right: 1em;
+      order : 5;
+    }
+
+    .resume #p3{
+      padding: 0em;
+      margin-left: 1em;
+      margin-right: 1em;
+      order : 7;
+    }
+
+    .resume .im1{
+      margin-left: 2em;
+      order: 4;
+    }
+
+    .resume .im2{
+      margin-left: 2em;
+      order: 6;
+    }
+
+    .resume .im3{
+      margin-left: 2em;
+      order: 8;
+    }
+
+}

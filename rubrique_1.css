@@ -1,0 +1,82 @@
+body{
+  background-color: #FFFFFF;
+  background-image: url("images/fond_min.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+  .Haut2Page h1{
+    text-align: center;
+  }
+
+  .Haut2Page
+  {
+    border : solid orange 2px;
+    background-image: url("images/26105.jpg");
+    background-size: cover;
+  }
+
+
+article{
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .titre h1{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: center;
+    background-color: #454545D9;
+    color : #F68C02;
+  }
+
+  h2{
+    font-size: 1.3em;
+    color: #F68C02;
+  }
+
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #FFFFFFD9;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+  .film_1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+
+    .film_1 img:hover{
+      filter: brightness(50%);
+    }
+
+  .film_2{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+    .film_2 img:hover{
+      filter: brightness(50%);
+    }
+
+  .film_3{
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+    .film_3 img:hover{
+      filter: brightness(50%);
+    }

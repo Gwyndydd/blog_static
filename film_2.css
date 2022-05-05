@@ -1,0 +1,349 @@
+body{
+  background-image: url("images/fond_min.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Haut2Page{
+  border : solid #F68C02 2px;
+  background-image: url("images/26105.jpg");
+  background-size: cover;
+}
+
+article{
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .Titre{
+  text-align: center;
+  margin-top: 1em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin-bottom: 1em;
+  background-color: #454545D9;
+  color : #F68C02;
+  }
+
+  #T_Original{
+    text-align: center;
+    font-style: italic;
+    font-size: 0.8em;
+    margin-top: 0;
+    color: white;
+  }
+
+  .wrapper{
+    display : flex;
+    flex-direction: column;
+  }
+
+  .Partie_1{
+    background-color: #FFFFFFD9;
+    display: grid;
+    grid-template-columns: 2em auto 3% 45% 3% 15% 2em;
+    grid-template-rows: 1em auto 3% auto 1em
+  }
+
+    .Partie_1 .image{
+      grid-column: 2;
+      grid-row-start: 2;
+      grid-row-end: 5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .image img{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .image p{
+      font-size: 0.9em;
+      font-style: italic;
+    }
+
+    .Partie_1 .identite{
+      grid-column-start: 4;
+      grid-column-end: 7;
+      grid-row-start : 4;
+      grid-row-end: 5;
+      margin-bottom: 1em;
+    }
+
+/*Dans l'identité*/
+    .identite h2{
+      text-align: center;
+      padding-bottom: 5px;
+      border-radius: 10px;
+      border: solid #F68C02;
+      background-color: #F68C02;
+    }
+
+    .identite img{
+      width: 1.2em;
+    }
+
+    .contenu{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      text-align: center;
+      text-decoration: none;
+      width: 30.15em;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+      .contenu ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .contenu a{
+        text-decoration: none;
+        color: black;
+      }
+
+      .contenu .Réal a:hover{
+        text-decoration: none;
+        color: #F68C02;
+      }
+
+      .Réal{
+        width: 9.5em;
+        height: 9em;
+        background-color: #A1A1A1;
+        margin-right: 0.5em;
+        margin-bottom: 0.5em;
+        box-shadow: 8px 8px 12px #aaaaaa;
+      }
+
+      .Réal h3{
+        font-size: 1.2em;
+      }
+
+      .AS{
+        width: 9.5em;
+        height: 9em;
+        background-color: #454545;
+        color: white;
+        margin-right: 0.5em;
+        margin-bottom: 0.5em;
+        box-shadow: 8px 8px 12px #aaaaaa;
+      }
+          .AS h3{
+            font-size: 1em;
+          }
+
+      .G{
+        width: 9.5em;
+        height: 9em;
+        background-color: #F68C02;
+        margin-right: 0.5em;
+        margin-bottom: 0.5em;
+        box-shadow: 8px 8px 12px #aaaaaa;
+      }
+
+      .contenu .G a:hover{
+        text-decoration: none;
+        color: #A1A1A1;
+      }
+
+      .acteurs{
+        width: 9.5em;
+        height: 10em;
+        background-color: #454545;
+        color: white;
+        margin-right: 0.5em;
+        margin-bottom: 0.5em;
+        box-shadow: 8px 8px 12px #aaaaaa;
+      }
+
+      .acteurs h3{
+        font-size: 0.9em;
+      }
+
+      .acteurs li{
+        font-size: 0.8em;
+      }
+
+
+      .duree{
+        width: 9.5em;
+        height: 10em;
+        background-color: #A1A1A1;
+        margin-right: 0.5em;
+        margin-bottom: 0.5em;
+        box-shadow: 8px 8px 12px #aaaaaa;
+      }
+
+      .Pays{
+        width: 9.5em;
+        height: 10em;
+        background-color: #F68C02;
+        margin-right: 0.5em;
+        margin-bottom: 0.5em;
+        box-shadow: 8px 8px 12px #aaaaaa;
+      }
+/*Fin de la partie identité*/
+
+/*Partie Synopsis*/
+    .Partie_1 .synopsis{
+      grid-column-start: 4;
+      grid-column-end: 7;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+
+    .synopsis h2{
+      text-align: center;
+      padding-left: 5px;
+      padding-bottom: 5px;
+      border-radius: 10px;
+      border: solid #F68C02;
+    }
+
+/*Partie Film suggestion*/
+
+  .suggestion{
+    margin-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: grid;
+    grid-template-rows: 10% 80%;
+    background-color: #454545D9;
+  }
+    .suggestion h2{
+      grid-row: 1;
+      font-size: 1em;
+      color: #F68C02;
+      align-self: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .suggestion .film_s{
+      grid-row:2;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .film_s img{
+      margin-bottom: 1.5em;
+    }
+
+
+    .film_1 img:hover{
+      filter: brightness(50%);
+    }
+
+    .film_2 img:hover{
+      filter: brightness(50%);
+    }
+
+    .film_3 img:hover{
+      filter: brightness(50%);
+    }
+
+
+/*Resume / Partie 2*/
+.resume{
+  margin-top: 2em;
+  padding-bottom: 1em;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row: 4;
+  display: grid;
+  grid-template-columns: 15% 35% 10% 2% 35% 2em;
+  grid-template-rows: auto 5% auto auto auto;
+  background-color: #FFFFFFD9;
+}
+
+  .resume h2{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row: 1;
+    text-align: center;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border: solid #F68C02;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    box-sizing: border-box;
+    height: 1.5em;
+  }
+
+  .resume h3{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row: 2;
+    padding-left: 2em;
+  }
+
+
+  #p1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: 3;
+    padding-left: 2em;
+    padding-right: 1em;
+    text-align: justify;
+  }
+
+  .im1{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row: 3;
+    margin-top: 5%;
+    margin-bottom: 2em;
+  }
+
+  #p2{
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row: 4;
+    padding-left: 1em;
+    padding-right: 2em;
+    text-align: justify;
+  }
+
+  .im2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 4;
+    margin-top: 5%;
+    margin-bottom: auto;
+    padding-bottom: 2em;
+  }
+
+  #p3{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: 5;
+    padding-left: 2em;
+    padding-right: 1em;
+    text-align: justify;
+  }
+
+  .im3{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row: 5;
+    margin-left:0em;
+    margin-right: 2em;
+    margin-top: 5%;
+    margin-bottom: auto;
+  }
+
+/*Fin résumé*/

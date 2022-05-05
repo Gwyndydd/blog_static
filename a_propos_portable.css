@@ -1,0 +1,86 @@
+@media screen and (max-width: 640px) {
+
+  body{
+    background-repeat :repeat;
+    width: auto;
+  }
+
+  article{
+    width:90%;
+    height: 85em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+  }
+
+  .wrapper_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .createur{
+    margin-top: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%
+  }
+
+  .Index{
+    margin-top: 1.5em;
+  }
+
+  .Index .img_index{
+    order : 2;
+    flex-direction: column;
+
+  }
+
+  .createur p{
+    order : 1;
+  }
+
+  .Film{
+    margin-top: 1.5em;
+  }
+  .Film p{
+    order : 1;
+  }
+
+  .Film .img_Film{
+    order :2;
+  }
+
+  .Realisateur{
+    margin-top: 1.5em;
+  }
+
+  .Réalisateur p{
+    order: 1;
+  }
+
+  .Realisateur .img_Realisateur{
+    order : 2;
+  }
+
+  .Genre{
+    margin-top: 1.5em;
+  }
+
+  .Genre p{
+    order :1;
+  }
+
+  .Genre #img_g{
+    order :2;
+  }
+
+  .Genre .img_Genre{
+    order : 3;
+  }
+
+
+
+
+
+}
